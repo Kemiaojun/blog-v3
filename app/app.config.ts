@@ -47,7 +47,7 @@ export default defineAppConfig({
 			{ icon: 'mdi:telegram', text: '克喵分享', url: 'https://t.me/kemiaofx_me' },
 			{ icon: 'ph:github-logo-bold', text: 'GitHub: 克喵Kemeow815', url: 'https://github.com/Kemeow815' },
 			{ icon: 'ph:rss-simple-bold', text: 'Atom订阅', url: '/atom.xml' },
-			{ icon: 'ph:subway-bold', text: '开往', url: 'https://www.travellings.cn/go-by-clouds.html' },
+			{ icon: 'ph:subway-bold', text: '开往', url: 'https://www.travellings.cn/' },
 		] satisfies NavItem[],
 		/** 页脚站点地图 */
 		nav: [

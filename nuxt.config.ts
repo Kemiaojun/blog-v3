@@ -110,6 +110,7 @@ export default defineNuxtConfig({
 
 	// @keep-sorted
 	modules: [
+		'@dxup/nuxt',
 		'@nuxt/content',
 		'@nuxt/icon',
 		'@nuxt/image',
@@ -117,6 +118,7 @@ export default defineNuxtConfig({
 		'@nuxtjs/seo',
 		'@pinia/nuxt',
 		'@vueuse/nuxt',
+		'nuxt-llms',
 		'unplugin-yaml/nuxt',
 	],
 
@@ -133,8 +135,10 @@ export default defineNuxtConfig({
 				// @keep-sorted
 				remarkPlugins: {
 					'remark-math': {},
+					'remark-music': {},
 					'remark-reading-time': {},
 				},
+				// @keep-sorted
 				rehypePlugins: {
 					'rehype-katex': {},
 				},
@@ -188,6 +192,12 @@ ${packageJson.homepage}
 			'no-non-ascii-chars',
 			'no-uppercase-chars',
 		],
+	},
+
+	llms: {
+		domain: blogConfig.url,
+		title: blogConfig.title,
+		description: blogConfig.description,
 	},
 
 	robots: {

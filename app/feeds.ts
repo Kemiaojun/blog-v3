@@ -18,7 +18,7 @@ export default [
 				avatar: 'https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg',
 				archs: ['Hexo', '服务器'],
 				date: '2025-03-19',
-				comment: '',
+				comment: '大学学长，爱好摄影/听歌，会一些Vue。',
 			},
 			{
 				author: '梦爱吃鱼',
